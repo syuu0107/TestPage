@@ -1,24 +1,40 @@
 .top-img {
     position: relative;
-    width:100%;
+    text-align: center;
+    height:1000px;
     overflow: hidden;
 }
 
 .top-img img{
     position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    max-width: 100%;
+    top: 0;
+    left: 0;
+    transform: translate(-50%,-50%);
     animation: fead 15s linear infinite;
     opacity: 0;
 }
 
 @keyframes fead {
-  0%{opacity: 0;}
-  10%{opacity: 1;}
-  28%{opacity: 1;}
-  38%{opacity: 0;}
-  100%{opacity: 0;}
+  0%{
+    opacity: 0;
+    transform: scale(2.0);
+  }
+  10%{
+    opacity: 1;
+    transform: scale(1.66);
+  }
+  28%{
+    opacity: 1;
+    transform: scale(1.33);
+  }
+  38%{
+    opacity: 0;
+    transform: scale(1.0);
+  }
+  100%{
+    opacity: 0;
+  }
 }
 
 .top-img img:nth-child(2) {
