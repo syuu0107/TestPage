@@ -1,16 +1,16 @@
 .top-img {
     position: relative;
-    text-align: center;
-    height:1000px;
+    width:100%;
+    height:800px;
     overflow: hidden;
 }
 
 .top-img img{
     position: absolute;
-    max-width: 100%;
-    top: 0;
-    left: 0;
-    transform: translate(-50%,-50%);
+    width: 100%;
+    left:0;
+    top:-25%;
+    /* transform: translate(-50%,-50%); */
     animation: fead 15s linear infinite;
     opacity: 0;
 }
@@ -18,15 +18,15 @@
 @keyframes fead {
   0%{
     opacity: 0;
-    transform: scale(2.0);
+    transform: scale(1.75);
   }
-  10%{
+  7%{
     opacity: 1;
-    transform: scale(1.66);
+    transform: scale(1.5);
   }
   28%{
     opacity: 1;
-    transform: scale(1.33);
+    transform: scale(1.25);
   }
   38%{
     opacity: 0;
@@ -34,6 +34,7 @@
   }
   100%{
     opacity: 0;
+    transform: scale(0.75);
   }
 }
 
