@@ -1,16 +1,17 @@
 /*---　pc対応　---*/
 .main{
   width:100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .leftside{
   width:20vw;
-  float:left;
 }
 
 .rightside{
   width:20vw;
-  float:right;
 }
 
 
