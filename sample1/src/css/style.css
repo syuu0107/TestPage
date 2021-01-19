@@ -1,13 +1,13 @@
-/*---　sp対応　---*/
+/*---　pc対応　---*/
 
 
 
-@media screen and (min-width:600px) {
+@media screen and (max-width:1024px) {
   /*---　tb対応　---*/
 
 }
 
-@media screen and (min-width:1025px) {
-  /*---　pc対応　---*/
+@media screen and (max-width:599px) {
+  /*---　sp対応　---*/
 
 }
