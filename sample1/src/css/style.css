@@ -1,6 +1,16 @@
 /*---　pc対応　---*/
 .main{
-  
+  width:100vw;
+}
+
+.leftside{
+  width:20vw;
+  float:left;
+}
+
+.rightside{
+  width:20vw;
+  float:right;
 }
 
 
