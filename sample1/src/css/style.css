@@ -1,17 +1,23 @@
 /*---　pc対応　---*/
+
 .main{
-  width:100vw;
+  width:70vw;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .leftside{
-  width:20vw;
+  width:10vw;
+}
+
+.center{
+  width:50vw;
 }
 
 .rightside{
-  width:20vw;
+  width:10vw;
 }
 
 
