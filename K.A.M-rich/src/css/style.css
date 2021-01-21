@@ -5,8 +5,16 @@
   padding: 0;
 }
 
+html{
+  font-size: 10px;
+}
+
 img{
   width:100%;
+}
+
+h1{
+  font-size: 4.5rem
 }
 
 .cut-topright{
@@ -58,7 +66,7 @@ img{
 }
 
 .animation{
-  z-index:-100;
+  z-index:-10;
 }
 
 .shop-icon,
@@ -67,8 +75,8 @@ img{
 }
 
 .shop-icon{
-  width:20%;
-  padding: 30px 0 0 30px;
+  width:30%;
+  padding: 5% 0 0 5%;
 }
 
 .logo-icon{
@@ -105,4 +113,16 @@ img{
 }
 .top-img img:last-child {
     animation-delay: 10s;
+}
+
+.news{
+  width:60%;
+  margin: 15% auto 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.news p{
+  text-align: center;
+  letter-spacing: 0.25em;
 }
