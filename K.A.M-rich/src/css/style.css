@@ -1,3 +1,5 @@
+/*---global---*/
+
 *{
   margin: 0;
   padding: 0;
@@ -7,6 +9,28 @@ img{
   width:100%;
 }
 
+.cut-topright{
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%);
+  clip-path: polygon(0 25%, 0 100%, 100% 100%, 100% 0);
+}
+
+.cut-topleft{
+  -webkit-clip-path: polygon(0 0, 0 75%, 100% 100%, 100% 0);
+  clip-path: polygon(0 0, 0 75%, 100% 100%, 100% 0);
+}
+
+.cut-footright{
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 75%, 100% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 75%, 100% 0);
+}
+
+.cut-footleft{
+  -webkit-clip-path: polygon(0 0, 0 75%, 100% 100%, 100% 0);
+  clip-path: polygon(0 0, 0 75%, 100% 100%, 100% 0);
+}
+
+/*---Personal---*/
+
 .top-view{
   position: relative;
 }
@@ -14,20 +38,18 @@ img{
 .top-img {
     position: absolute;
     width:100vw;
-    height:47vw;
+    height:50vw;
     overflow: hidden;
-    -webkit-clip-path: polygon(0 0, 0 100%, 100% 80%, 100% 0);
-    clip-path: polygon(0 0, 0 100%, 100% 80%, 100% 0);
     z-index: -1;
 }
 
 .top-img img{
-  width:100%;
+  width:125%;
 }
 
 .animation{
     position: absolute;
-    left:0;
+    left:-12.5%;
     top:0;
     /* transform: translate(-50%,-50%); */
     animation: fead 15s linear infinite;
