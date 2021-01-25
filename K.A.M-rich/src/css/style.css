@@ -145,35 +145,42 @@ h1{
 }
 
 .topic{
-  margin: 0 auto;
+  margin: 30% auto;
   text-align: center;
 }
 
 .topic-ja{
-  font-size: 2rem;
+  font-size: 5rem;
+  margin: 2.5% auto;
 }
 
 .topic-en{
-  font-size: 3rem;
+  font-size: 8rem;
+  margin: 2.5% auto;
 }
 
 /*--- image ---*/
 .bg_1{
   background-image: url("../../img/2.jpg");
+  background-size: 125%;
 }
 
 .bg_2{
   background-image: url("../../img/shop-1.jpg");
+  background-size: 125%;
 }
 
 .bg_3{
   background-image: url("../../img/shop-2.jpeg");
+  background-size: 125%;
 }
 
 .bg_4{
   background-image: url("../../img/shop-3.jpeg");
+  background-size: 125%;
 }
 
 .bg_5{
   background-image: url("../../img/shop-4.jpeg");
+  background-size: 125%;
 }
