@@ -1,5 +1,4 @@
 $(function () {
-
   //各背景画像のtopの位置を取得
   var bg1_top = $(".bg_1").offset().top;
   var bg2_top = $(".bg_2").offset().top;
