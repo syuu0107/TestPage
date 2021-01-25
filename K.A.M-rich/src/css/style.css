@@ -44,11 +44,11 @@ h1{
 }
 
 .top-img {
-    position: absolute;
-    width:100vw;
-    height:50vw;
-    overflow: hidden;
-    z-index: -1;
+  position: absolute;
+  width:100vw;
+  height:50vw;
+  overflow: hidden;
+  z-index: -1;
 }
 
 .top-img img{
@@ -56,13 +56,13 @@ h1{
 }
 
 .animation{
-    position: absolute;
-    left:-12.5%;
-    top:0;
-    /* transform: translate(-50%,-50%); */
-    animation: fead 15s linear infinite;
-    opacity: 0;
-    object-fit: cover;
+  position: absolute;
+  left:-12.5%;
+  top:0;
+  /* transform: translate(-50%,-50%); */
+  animation: fead 15s linear infinite;
+  opacity: 0;
+  object-fit: cover;
 }
 
 .animation{
@@ -109,10 +109,10 @@ h1{
 }
 
 .top-img img:nth-child(2) {
-    animation-delay: 5s;
+  animation-delay: 5s;
 }
 .top-img img:last-child {
-    animation-delay: 10s;
+  animation-delay: 10s;
 }
 
 .news{
@@ -134,17 +134,13 @@ h1{
   text-align: center;
 }
 
-.parallax_content{
-  min-height: 400px;
-  background-position: center top;
-  background-repeat: no-repeat;
+.parallax{
   background-attachment: fixed;
+  width: 100%;
+  padding-top: 66.66%;
+  background-position: center 0;
   background-size: cover;
-}
-
-.parallax_content.bg-01{
-  background-image: url('../../img/2.jpeg');
-  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .topic{
@@ -158,4 +154,25 @@ h1{
 
 .topic-en{
   font-size: 3rem;
+}
+
+/*--- image ---*/
+.bg_1{
+  background-image: url("../../img/2.jpg");
+}
+
+.bg_2{
+  background-image: url("../../img/shop-1.jpg");
+}
+
+.bg_3{
+  background-image: url("../../img/shop-2.jpeg");
+}
+
+.bg_4{
+  background-image: url("../../img/shop-3.jpeg");
+}
+
+.bg_5{
+  background-image: url("../../img/shop-4.jpeg");
 }
