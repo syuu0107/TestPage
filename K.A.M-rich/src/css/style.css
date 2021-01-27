@@ -168,12 +168,17 @@ footer{
 }
 
 .parallax{
-  background-attachment: fixed;
+  background-attachment:scroll;
   width: 100%;
   padding-top: 66.66%;
   background-position: center 0;
   background-size: cover;
   background-repeat: no-repeat;
+  /* position: absolute;
+  top: 0%;
+  bottom: 0%;
+  height: 100%;
+  width: 100%; */
 }
 
 .topic{
@@ -206,7 +211,8 @@ footer{
   height: 100vh;
   text-align: center;
   margin: 15% auto;
-  background-color: #000000
+  background-color: #000;
+  display:flex;
 }
 
 .howto img{
@@ -215,17 +221,39 @@ footer{
 }
 
 .howto-txt{
-  width:50%;
+  width:40%;
   height:100vh;
   padding: 30% 0;
-  float: right;
-  font-size: 2rem;
-  color: #fff
+  margin: 0 auto;
+  text-align: left;
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #fff;
+}
+
+.howto-stp{
+  width: 80%;
+  margin: 10% auto;
+  list-style-position: inside;
 }
 
 .howto-stp li{
-  border-top: : 5px solid #fff;
-  border-bottom: : 5px solid #fff;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  padding: 5% 0;
+}
+
+.howto-stp li + li{
+  border-top: 0px solid #999;
+  border-bottom: 1px solid #999;
+  padding: 5% 0;
+}
+
+.shop{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
 /*---footer---*/
@@ -261,20 +289,36 @@ footer{
 
 .shop-1{
   background-image: url("../../img/shop-1.jpg");
-  background-size: 125%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+  width:100%;
 }
 
 .shop-2{
   background-image: url("../../img/shop-2.jpg");
-  background-size: 125%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+  width:100%;
 }
 
 .shop-3{
   background-image: url("../../img/shop-3.jpg");
-  background-size: 125%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+  width:100%;
 }
 
 .shop-4{
   background-image: url("../../img/shop-4.jpg");
-  background-size: 125%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+  width:100%;
 }
