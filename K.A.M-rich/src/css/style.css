@@ -32,33 +32,33 @@ footer{
 
 
 .cut-right{
-  -webkit-clip-path: polygon(0 0, 0 100%, 100% 75%, 100% 25%);
-  clip-path: polygon(0 0, 0 100%, 100% 75%, 100% 25%);
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 85%, 100% 15%);
+  clip-path: polygon(0 0, 0 100%, 100% 85%, 100% 15%);
 }
 
 .cut-left{
-  -webkit-clip-path: polygon(0 25%, 0 75%, 100% 100%, 100% 0);
-  clip-path: polygon(0 25%, 0 75%, 100% 100%, 100% 0);
+  -webkit-clip-path: polygon(0 15%, 0 85%, 100% 100%, 100% 0);
+  clip-path: polygon(0 15%, 0 85%, 100% 100%, 100% 0);
 }
 
 .cut-topright{
-  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%);
-  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%);
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 15%);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 15%);
 }
 
 .cut-topleft{
-  -webkit-clip-path: polygon(0 25%, 0 100%, 100% 100%, 100% 0);
-  clip-path: polygon(0 25%, 0 100%, 100% 100%, 100% 0);
+  -webkit-clip-path: polygon(0 15%, 0 100%, 100% 100%, 100% 0);
+  clip-path: polygon(0 15%, 0 100%, 100% 100%, 100% 0);
 }
 
 .cut-footright{
-  -webkit-clip-path: polygon(0 0, 0 100%, 100% 75%, 100% 0);
-  clip-path: polygon(0 0, 0 100%, 100% 75%, 100% 0);
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 85%, 100% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 85%, 100% 0);
 }
 
 .cut-footleft{
-  -webkit-clip-path: polygon(0 0, 0 75%, 100% 100%, 100% 0);
-  clip-path: polygon(0 0, 0 75%, 100% 100%, 100% 0);
+  -webkit-clip-path: polygon(0 0, 0 85%, 100% 100%, 100% 0);
+  clip-path: polygon(0 0, 0 85%, 100% 100%, 100% 0);
 }
 
 /*---Personal---*/
@@ -70,7 +70,7 @@ footer{
 .top-img {
   position: absolute;
   width:100vw;
-  height:50vw;
+  height:50vh;
   overflow: hidden;
   z-index: -1;
 }
@@ -192,6 +192,23 @@ footer{
   margin: 15% auto;
 }
 
+.howto{
+  width: 80%;
+  height: 100;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.howto img{
+  width: 50%;
+}
+.howto-txt{
+  width:50%;
+  float: right;
+
+}
+/*---footer---*/
+
 .footlist{
   text-align:center;
   position: relative;
@@ -218,7 +235,7 @@ footer{
 /*--- image ---*/
 .bg_1{
   background-image: url("../../img/2.jpg");
-  background-size: 125%;
+  background-size: 150%;
 }
 
 .shop-1{
