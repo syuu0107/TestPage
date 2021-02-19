@@ -192,7 +192,7 @@ footer{
 }
 
 .topic-ja{
-  font-size: 6rem;
+  font-size: 5rem;
   margin: 2.5% auto;
 }
 
@@ -215,35 +215,30 @@ footer{
   min-width:300px;
   max-width:90%;
   margin: 5% auto;
-  display: flex;
-  flex-wrap: wrap;
+  display:flex;
+  flex-wrap: nowrap;
 }
 
-.topic-1,
-.topic-2,
-.topic-3{
-  min-width:300px;
-  max-width: 50%;
+.topic-txt{
+  width: 50%;
 }
 
-.topic-content img{
-  min-width:300px;
-  max-width: 500%;
+.topic-txt p{
+  font-size: 2rem;
+}
+
+.pride{
+  font-weight: bold;
+}
+
+.topic-img{
+  width: 50%;
+  object-fit: fill;
   overflow: hidden;
-}
-
-.topic-1 p,
-.topic-2 p,
-.topic-3 p{
-  width:62.5%;
-  margin: 5% auto;
-  font-size: 1.5rem;
-  line-height: 2;
 }
 
 .howto{
   width: 100%;
-  height: 100vh;
   text-align: center;
   margin: 15% auto;
   background-color: #000;
@@ -252,7 +247,8 @@ footer{
 
 .howto img{
   width: 50%;
-  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 .howto-txt{
